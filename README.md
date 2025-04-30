@@ -2,7 +2,7 @@
 
 ## Code By:Tas9er / A.E.0.S Security Team
 
-![theme](image\theme.jpg)
+![theme](image/theme.jpg)
 
 ##### :underage:项目概述
 
@@ -22,7 +22,7 @@
 
 使用Cobalt Strike或者Metasploit生成Python格式的Payload文件，默认强制性文件为payload.py
 
-![01](image\01.jpg)
+![01](image/01.jpg)
 
 payload.py放置在ShellCodeEncrypt.exe相同目录下，同级目录下还有自带的The Tsukimori Song.mp3，当然了使用者也可以自己准备一个mp3文件，建议使用自带，如果自己准备mp3文件的话，建议音频大小超过4MB，否则会出现一些问题。
 
@@ -30,7 +30,7 @@ payload.py放置在ShellCodeEncrypt.exe相同目录下，同级目录下还有�
 
 会在同级目录生成一个新的mp3，mp3隐写数据：AES加密的IV，KEY以及加密后的ShellCode，当然了这个IV和KEY攻击者无需记录。
 
-![02](image\02.jpg)
+![02](image/02.jpg)
 
 可以把生成新的mp3文件存储在VPS，肉鸡，或者任何其他任何HTTP请求网络资源上，需要记住这个自定义地址。
 
@@ -44,11 +44,11 @@ ShellCodeLoader.exe需要上传至服务器端，执行命令ShellCodeLoader.exe
 
 ###### 火绒(病毒样本库:2025.04.29)
 
-![03](image\03.png)
+![03](image/03.png)
 
 ###### 360安全卫士(病毒样本库:2025.04.30，多引擎)
 
-![04](image\04.png)
+![04](image/04.png)
 
 
 
